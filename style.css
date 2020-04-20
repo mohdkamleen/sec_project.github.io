@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(39, 11, 197);
+    
+}
+
+.container{
+    display: grid;
+    background: rgb(235, 235, 235);
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-row-gap:10px ;
+   
+}
+a{
+   margin: 10px;
+}
+h1{
+    -webkit-text-stroke:1px rgb(43, 41, 41);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red;
+    }
+  }
